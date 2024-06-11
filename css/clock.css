@@ -1,0 +1,48 @@
+@font-face {
+    font-family:legal ;
+    src: url('../font/aedwtr.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: legal;
+}
+
+body{
+    background: url(https://files.passeidireto.com/9fb4a5ce-8202-4700-ae5a-b9327624758c/9fb4a5ce-8202-4700-ae5a-b9327624758c.png)no-repeat ;
+    height: 10%;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+
+    position: flex;
+    top: 20%;
+}
+
+div.relogio{
+    background: transparent;
+    width: 80%;
+    padding: 3% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 5% 8px 10px ;
+}
+
+.relogio div{
+    border: 1px solid;
+    width: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    letter-spacing: 7px;
+    box-shadow: 5px 5px;
+    margin: 2%;
+    padding: 10% 15%;
+}   
+
